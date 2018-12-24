@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 15px auto;
+    width: 650px;
+    background-color: green;
+    background-repeat: repeat;
+}
+canvas {
+    background: #7cc754;
+    position: static;
+}
+#buttons{
+    float: left;
+    width: 140px;
+}
+#stage{
+    float: left;
+}
+#retry{
+    font-size: 15px;
+    padding: 7px;
+    margin-bottom: 10px;
+    color: darkgreen;
+    background: #7cc754;
+}
+#retry:hover{
+    color: red;
+}
